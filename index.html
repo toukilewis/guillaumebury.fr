@@ -1,5 +1,271 @@
-# guillaumebury.fr
-site web GB
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio Guillaume Bury</title>
+    <link rel="icon" href="./cesi.ico" />
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./Small.css"
+      rel="stylesheet"
+      media="screen and (max-width: 1300px)"
+    />
+    <link
+      href="./nokia.css"
+      rel="stylesheet"
+      media="screen and (max-width: 250px)"
+    />
+  </head>
 
+  <body style="background-image: url(./windows-10.jpg);" id="body2">
+    <div class="wrapper">
+      <div class="d-flex">
+        <aside class="anthra w-15" id="deroule">
+          <div class="transparent"></div>
+          <div class="BGW10">
+            <img src="./cancel.svg" alt="" id="menu2" onclick="togglemenu()" />
+            <br />
+            <div id="photo"></div>
+            <h1 class="p-anthra">Guillaume Bury</h1>
+            <br />
+            <p id="contact">Me contacter</p>
+            <form
+              id="myform"
+              class="cssform"
+              action="mailto:g.bury085@mail.com"
+            >
+              <div class="forminput">
+                <label for="user">Nom :</label>
+                <input type="text" id="user" value="" />
+              </div>
+              <div class="forminput">
+                <label for="emailaddress">Email :</label>
+                <input type="text" id="emailaddress" value="" />
+              </div>
+              <div class="forminput">
+                <label for="emailaddress">Téléphone :</label>
+                <input type="text" id="téléphone" value="" />
+              </div>
+              <div class="forminput">
+                <label for="emailaddress">Objet :</label>
+                <input type="text" id="objet" value="" />
+              </div>
 
-site web de guillaume Bury, pour hebergement aws
+              <div class="forminput">
+                <label for="comments">Message :</label>
+                <textarea id="comments" rows="5" cols="25"></textarea>
+              </div>
+              <div class="bouttons">
+                <input type="submit" value="Envoyer" />
+                <input type="reset" value="Reset" />
+              </div>
+            </form>
+            <img src="./demarrer2.png" alt="" id="menu" />
+          </div>
+        </aside>
+
+        <main class="blue w-85 d-flex icons">
+          <div class="d-flex2">
+            <div class="b2">
+              <a class="sousligne" href="./CVactuel.pdf" target="_blank">
+                <img
+                  src="./businessman.svg"
+                  alt=""
+                  class="pictobureau bureau"
+                />
+                <p class="lien">Mon Cv</p></a
+              >
+            </div>
+            <div class="b2">
+              <a
+                class="sousligne"
+                href="./BURY_Guillaume_GMSI_19_region.pdf"
+                target="_blank"
+              >
+                <img src="./chemistry.svg" alt="" class="pictobureau bureau" />
+                <p class="lien">Mon mémoire</p></a
+              >
+            </div>
+          </div>
+          <div class="rightcontainer">
+            <br />
+            <h1 class="smartphone">portfolio de guillaume Bury</h1>
+            <div class="d-flex bordure">
+              <div class="b2">
+                <a
+                  class="sousligne"
+                  href="./projets/Projet Sas.pdf"
+                  target="_blank"
+                >
+                  <img src="./sas.svg" alt="" class="pictobureau bureau" />
+                  <p class="lien">Projet Sas</p></a
+                >
+              </div>
+
+              <div class="b2">
+                <a
+                  class="sousligne"
+                  href="./projets/Projet Start .pdf"
+                  target="_blank"
+                >
+                  <img
+                    src="./networking.svg"
+                    alt=""
+                    class="pictobureau bureau"
+                  />
+                  <p class="lien">Projet Start</p></a
+                >
+              </div>
+
+              <div class="b2">
+                <a
+                  class="sousligne"
+                  href="./projets/Evolution.pdf"
+                  target="_blank"
+                >
+                  <img src="./growth.svg" alt="" class="pictobureau bureau" />
+                  <p class="lien">Projet evolution</p></a
+                >
+              </div>
+            </div>
+            <div class="d-flex flexend">
+              <div class="b2">
+                <a
+                  class="sousligne"
+                  href="./projets/Evolution Annexes.pdf"
+                  target="_blank"
+                >
+                  <img
+                    src="./evolution.svg"
+                    alt=""
+                    class="pictobureau bureau"
+                  />
+                  <p class="lien">Projet evolution annexes</p></a
+                >
+              </div>
+
+              <div class="b2">
+                <a
+                  class="sousligne"
+                  href="./projets/Cas H 1.pdf"
+                  target="_blank"
+                >
+                  <img src="./cash1.svg" alt="" class="pictobureau bureau" />
+                  <p class="lien">Projet cas H1</p></a
+                >
+              </div>
+
+              <div class="b2">
+                <a
+                  class="sousligne"
+                  href="./projets/CAS H 2.pdf"
+                  target="_blank"
+                >
+                  <img src="./cash2.svg" alt="" class="pictobureau bureau" />
+                  <p class="lien">Projet cas H2</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <footer class="d-flex">
+      <div id="footerp" class="mobile">
+        <img
+          src="./demarrer.png"
+          alt=""
+          class="picto gmail"
+          onclick="togglemenu()"
+        />
+      </div>
+      <div>
+        <a href="mailto:g.bury085@gmail.com">
+          <img src="./gmail.svg" alt="" class="picto gmail" id="blink"
+        /></a>
+      </div>
+      <div>
+        <a
+          href="https://www.youtube.com/channel/UC8j5WuxHkLFZP_IihBgHEWg?view_as=subscriber"
+          target="_blank"
+        >
+          <img src="./youtube.svg" alt="" class="picto gmail"
+        /></a>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/toukilewis/" target="_blank">
+          <img src="./instagram.svg" alt="" class="picto gmail"
+        /></a>
+      </div>
+      <div>
+        <a
+          href="https://www.facebook.com/QuandtoncoeurfaitBOOM"
+          target="_blank"
+        >
+          <img src="./facebook.svg" alt="" class="picto gmail"
+        /></a>
+      </div>
+      <div>
+        <a href="https://twitter.com/ToukiLavisse" target="_blank">
+          <img src="./twitter.svg" alt="" class="picto gmail"
+        /></a>
+      </div>
+      <div>
+        <a
+          href="https://www.linkedin.com/in/guillaume-bury-a0b48a143/"
+          target="_blank"
+        >
+          <img src="./linkedin.svg" alt="" class="picto gmail"
+        /></a>
+      </div>
+      <div>
+        <a href="./snake2.html" target="_blank">
+          <img src="./snakepython.svg" alt="" class="picto gmail"
+        /></a>
+      </div>
+    </footer>
+    <section class="blueScreen">
+      <div class="wrapper">
+        <p class="smill">:)</p>
+        <p class="mainText">
+          Oh ! On dirait que Guillaume bury à achevé sa formation GMSI
+        </p>
+        <p class="mainText">100% achevés</p>
+        <div class="row">
+          <img src="./unicod.png" alt="" />
+          <div>
+            <p class="secondText">
+              Vous pouvez désormais scanner le QRcode présent sur cette page
+              pour voir mon CV. Je souhaite désormais me tourner vers la suite
+              de la formation au CESi de Reims à savoir
+              <a
+                href="https://catalogue.cesi.fr/bachelor-responsable-en-ingenierie-systemes-et-reseaux-2169028-2020/"
+                target="_blank"
+                >RISR</a
+              >
+            </p>
+            <p class="secondText">
+              Vous pouvez retourner sur le portfolio
+              <span class="back" onclick="back()">en cliquant ici</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
