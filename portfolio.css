@@ -1,34 +1,381 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Guillaume Bury</title>
-    <link rel="icon" href="./../cesi.ico" />
-    <link rel="stylesheet" href="./portfolio.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cookie&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+* {
+  padding: 0;
+  margin: 0;
+}
 
-  <body>
-    <img id="fond" src="./../test.png" alt="win10" />
-    <header>
-      <div id="logo">
-        <img
-          id="photoGB"
-          src="./../ressources annexes/IMG_20180915_162124_1.jpg"
-          alt="photo Guillaume"
-        />
-        <br />
-        Portfolio de Guillaume Bury
-        <br /><br />
-        <li>26 ans</li>
-        <li>Reims</li>
-        <li>Permis B</li>
-        <li>Cesi GMSI 2019/2020</li>
-      </div>
-    </header>
-  </body>
-</html>
+.w-15 {
+  width: 25%;
+}
+
+.w-85 {
+  width: 86%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 94.3vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.anthra {
+  min-height: 90vh;
+  text-align: center;
+  position: relative;
+  transition-duration: 500ms;
+}
+
+.blue {
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: row;
+}
+
+#ul1 {
+  margin-left: 80px;
+}
+
+.p-anthra {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  font-size: medium;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 5px;
+  margin-top: 7px;
+  text-align: left;
+}
+
+#photo {
+  background-image: url(./IMG_20180915_162124_1.jpg);
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  background-position: auto;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.anthra h1 {
+  color: #3cb38d;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: "Cookie", cursive;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#ulli {
+  margin-left: 50px;
+}
+
+#fr {
+  width: 25px;
+  height: 25px;
+}
+
+#uk {
+  width: 25px;
+  height: 25px;
+}
+
+#ger {
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  background: #000308;
+  opacity: 0.9;
+  height: 5.7vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+#footerp {
+  color: white;
+  font-size: 20px;
+}
+
+.picto {
+  margin-left: 25px;
+  margin-top: 8px;
+  height: 30px;
+}
+
+.gmail:hover {
+  transform: scale(1.25);
+  transition-timing-function: ease;
+  transition-duration: 150ms;
+}
+
+.pictobureau {
+  height: 100px;
+  width: 100px;
+}
+
+.sousligne {
+  text-decoration: none;
+}
+
+.b2:hover {
+  transform: scale(1.2);
+  transition-timing-function: ease;
+  transition-duration: 250ms;
+  background-color: rgba(41, 137, 192, 0.4);
+}
+
+.b2 {
+  margin: 10px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.b {
+  margin-top: 70px;
+  margin-left: 70px;
+  text-align: center;
+  color: white;
+  /* background-color: rgba(41, 137, 192, 0.4);*/
+}
+
+.rightcontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flexend {
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+
+.bordure {
+  height: 50%;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.lien {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.icons {
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px;
+}
+.b a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  min-height: 10vh;
+}
+
+#menu {
+  position: absolute;
+  bottom: -35px;
+  left: 15px;
+}
+
+#menu2 {
+  position: absolute;
+  left: 15px;
+  width: 30px;
+  top: 60px;
+}
+
+#body2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.transparent {
+  height: 5vh;
+  background-color: transparent;
+}
+
+.BGW10 {
+  background-color: #2f2e2e;
+  height: 100%;
+  width: 100%;
+}
+
+#menu-vertical,
+#menu-vertical ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 180px;
+}
+
+#menu-vertical li {
+  position: relative;
+  background: #efefef;
+}
+
+#menu-vertical a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+#menu-vertical ul {
+  position: absolute;
+  left: -999em;
+}
+
+#menu-vertical li:hover ul {
+  top: 0;
+  left: 180px;
+}
+
+.smartphone {
+  display: none;
+}
+
+.desappear {
+  transform: translateY(2000px);
+  transition-duration: 500ms;
+}
+
+.cssform {
+  padding: 20px 20px;
+}
+
+.cssform label {
+  font-weight: bold;
+  color: white;
+  /*width of left column*/ /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.cssform .forminput input {
+  /*width of text boxes. IE6 does not understand this attribute*/
+  width: 200px;
+  padding: 5px;
+  border: solid 1px black;
+}
+
+.cssform textarea {
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  border: solid 1px black;
+}
+
+* html .threepxfix {
+  margin-left: 3px;
+}
+
+#comments {
+  margin-left: -25px;
+}
+
+.forminput {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  border-bottom: 1px grey dashed;
+  padding-bottom: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.forminput:nth-child(5) {
+  border-bottom: none;
+}
+
+.bouttons {
+  text-align: right;
+}
+
+.bouttons input {
+  padding: 5px 0;
+  width: 105px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blueScreen {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 120, 215);
+  z-index: 999999;
+  position: absolute;
+  top: 0;
+  color: white;
+
+  left: 0;
+}
+
+.blueScreen .wrapper {
+  max-width: 100%;
+  padding: 0 50px;
+}
+
+.blueScreen .smill {
+  font-size: 200px;
+}
+
+.blueScreen .mainText {
+  font-size: 40px;
+  max-width: 55%;
+  margin-top: 30px;
+}
+
+.blueScreen .row {
+  display: flex;
+  max-width: 85%;
+  margin-top: 30px;
+}
+
+.blueScreen .secondText {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.appear {
+  display: block;
+}
+
+.back {
+  font-size: 25px;
+  color: red;
+  cursor: pointer;
+}
+
+#contact {
+  color: white;
+  font-family: "Cookie", cursive;
+  font-size: 25px;
+  font-weight: 300;
+}

@@ -1,0 +1,30 @@
+.anthra {
+  display: none;
+}
+.pictobureau {
+  height: 10px;
+  width: 10px;
+}
+
+.picto {
+  margin-left: 10px;
+  margin-top: 3px;
+  height: 15px;
+}
+
+.icons {
+  padding: -10px;
+}
+
+.smartphone {
+  display: block;
+  color: #3cb38d;
+  font-family: "Cookie", cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.b2 {
+  margin-left: -10px;
+}
